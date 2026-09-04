@@ -1,0 +1,22 @@
+Acme Cloud Services — Company Overview
+======================================
+
+Acme Cloud Services (ACS) is a mid-size infrastructure company founded in 2018.
+We help startups and mid-market teams run reliable workloads without managing
+bare metal themselves.
+
+Core products
+-------------
+1. Acme Compute — on-demand virtual machines with hourly billing.
+2. Acme Object Store — S3-compatible object storage with versioning.
+3. Acme Managed Postgres — managed PostgreSQL with automated backups.
+
+Support
+-------
+Standard support is email-only with a 24-hour response target on business days.
+Premium support adds Slack channel access and a 4-hour response target.
+
+Pricing notes
+-------------
+Compute starts at $0.04 per vCPU-hour. Object storage is $0.02 per GB-month.
+Managed Postgres has a free tier of 1 GB RAM / 10 GB disk for evaluation.

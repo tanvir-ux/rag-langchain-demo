@@ -1,0 +1,22 @@
+services:
+  rag-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      EMBEDDING_BACKEND: fake
+      CHROMA_PERSIST_DIR: /app/data/chroma
+      CHUNK_SIZE: "500"
+      CHUNK_OVERLAP: "80"
+      TOP_K: "4"
+    volumes:
+      - chroma_data:/app/data/chroma
+      - ./samples:/app/samples:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  chroma_data:

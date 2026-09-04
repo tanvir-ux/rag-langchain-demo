@@ -1,0 +1,22 @@
+Acme Cloud — Onboarding FAQ
+===========================
+
+Q: How do I create an account?
+A: Sign up at https://console.acme.example with a work email. Confirm the
+   verification link, then create an organization.
+
+Q: Do I need a credit card to start?
+A: No. The free Managed Postgres tier and $25 trial credit for Compute do not
+   require a card. A card is required only when you leave the free tier.
+
+Q: Where are regions available?
+A: us-east-1, us-west-2, and eu-central-1. Data residency options for EU
+   customers keep primary copies in eu-central-1.
+
+Q: How do I rotate API keys?
+A: In the console under Settings → API Keys → Rotate. Old keys remain valid
+   for 24 hours after rotation.
+
+Q: What is the SLA for Premium support?
+A: 99.9% monthly uptime credit policy, and a 4-hour first-response target for
+   Sev-1 incidents during business hours.
