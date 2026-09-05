@@ -1,6 +1,6 @@
 # rag-langchain-demo
 
-I built this small end-to-end RAG skeleton for Freelancer project **End-to-End RAG (40686539)**. It is a working Python demo: upload or point at a document, chunk it, store embeddings in local ChromaDB, then ask questions over the retrieved context.
+Small end-to-end RAG skeleton for Freelancer project **End-to-End RAG (40686539)**. Working Python demo: upload or point at a document, chunk it, store embeddings in local ChromaDB, then ask questions over the retrieved context.
 
 Stack: **FastAPI**, **LangChain** (LCEL-style retrieval helpers + optional LangGraph stub), **ChromaDB**, and a **no-API-key embedding backend** so `pip install` + `uvicorn` works offline for the demo.
 
@@ -128,6 +128,4 @@ requirements.txt
 
 - Chroma persists under `data/chroma` (gitignored).
 - This repo is a **demo skeleton** for the Freelancer RAG brief — solid structure you can extend with a real LLM, auth, and richer evaluation.
-- I kept dependencies pinned so a clean `pip install` is reproducible.
-
-— Tanvir Alam
+- Dependencies are pinned so a clean `pip install` is reproducible.
